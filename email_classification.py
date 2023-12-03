@@ -43,7 +43,7 @@ col1, col2, col3 = st.columns((1, 4, 1))
 #with col2:
 #st.sidebar.image(Image.open("./Capture.png"))
 #img_path='Capture.png'
-#st.image(str(img_path))
+st.sidebar.image("https://github.com/VenkatesanParamasivam/email_classification/blob/main/Capture.PNG")
 
 avatar_path = "https://icon-library.com/images/default-profile-icon/default-profile-icon-16.jpg"
 st.caption(
