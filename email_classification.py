@@ -46,8 +46,8 @@ col1, col2, col3 = st.columns((1, 4, 1))
 st.sidebar.image("https://github.com/VenkatesanParamasivam/email_classification/blob/main/Capture.PNG")
 
 avatar_path = "https://icon-library.com/images/default-profile-icon/default-profile-icon-16.jpg"
-st.caption(
-                        f'<a href="https://github.com/VenkatesanParamasivam"><img src="{avatar_path}" style="border: 1px solid #D6D6D9; width: 20px; height: 20px; border-radius: 50%"></a> &nbsp; <a href="https://github.com/VenkatesanParamasivam" style="color: inherit; text-decoration: inherit">"VenkatesanParamasivam"</a>',
+st.sidebar.caption(
+                        f'<a href="https://cogxta.com/"><img src="{avatar_path}" style="border: 1px solid #D6D6D9; width: 20px; height: 20px; border-radius: 50%"></a> &nbsp; <a href="https://cogxta.com/" style="color: inherit; text-decoration: inherit">"Cogxta"</a>',
                         unsafe_allow_html=True,
                     )
 
