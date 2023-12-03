@@ -42,8 +42,14 @@ def main():
 col1, col2, col3 = st.columns((1, 4, 1))
 #with col2:
 #st.sidebar.image(Image.open("./Capture.png"))
-img_path='Capture.png'
-st.image(str(img_path), use_column_width=True)
+#img_path='Capture.png'
+#st.image(str(img_path))
+
+avatar_path = "https://icon-library.com/images/default-profile-icon/default-profile-icon-16.jpg"
+st.caption(
+                        f'<a href="https://github.com/{c.github_author}"><img src="{avatar_path}" style="border: 1px solid #D6D6D9; width: 20px; height: 20px; border-radius: 50%"></a> &nbsp; <a href="https://github.com/{c.github_author}" style="color: inherit; text-decoration: inherit">{c.github_author}</a>',
+                        unsafe_allow_html=True,
+                    )
 
 days_list = [f"Day {x}" for x in md_files]
 
