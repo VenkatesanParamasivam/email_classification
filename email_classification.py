@@ -47,7 +47,7 @@ col1, col2, col3 = st.columns((1, 4, 1))
 
 avatar_path = "https://icon-library.com/images/default-profile-icon/default-profile-icon-16.jpg"
 st.caption(
-                        f'<a href="https://github.com/{c.github_author}"><img src="{avatar_path}" style="border: 1px solid #D6D6D9; width: 20px; height: 20px; border-radius: 50%"></a> &nbsp; <a href="https://github.com/{c.github_author}" style="color: inherit; text-decoration: inherit">{c.github_author}</a>',
+                        f'<a href="https://github.com/VenkatesanParamasivam"><img src="{avatar_path}" style="border: 1px solid #D6D6D9; width: 20px; height: 20px; border-radius: 50%"></a> &nbsp; <a href="https://github.com/VenkatesanParamasivam" style="color: inherit; text-decoration: inherit">"VenkatesanParamasivam"</a>',
                         unsafe_allow_html=True,
                     )
 
