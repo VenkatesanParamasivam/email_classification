@@ -41,7 +41,7 @@ def main():
 # Logo and Navigation
 col1, col2, col3 = st.columns((1, 4, 1))
 #with col2:
-st.sidebar.image(Image.open("./Capture.png"))
+#st.sidebar.image(Image.open("./Capture.png"))
 #img_path='Capture.png'
 #st.image(str(img_path))
 
