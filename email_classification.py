@@ -41,7 +41,7 @@ def main():
 # Logo and Navigation
 col1, col2, col3 = st.columns((1, 4, 1))
 #with col2:
-st.sidebar.image(Image.open(r"D:\Projects\Cogxta\classification\Capture.png"))
+st.sidebar.image(Image.open(r"Capture.png"))
 days_list = [f"Day {x}" for x in md_files]
 
 query_params = st.experimental_get_query_params()
@@ -78,7 +78,7 @@ for i in days_list:
     
 @st.cache(persist= True)
 def load():
-    data= pd.read_csv(r"D:\Projects\Cogxta\classification\mushrooms.csv")
+    data= pd.read_csv(r"mushrooms.csv")
     label= LabelEncoder()
     for i in data.columns:
         data[i] = label.fit_transform(data[i])
@@ -87,7 +87,7 @@ df = load()
 
 if st.sidebar.checkbox("Display data", False):
     st.subheader("Show Email dataset")
-    data_1= pd.read_csv(r"D:\Projects\Cogxta\classification\spam.csv",encoding='latin-1')
+    data_1= pd.read_csv(r"spam.csv",encoding='latin-1')
     st.dataframe(data_1)
     
     
